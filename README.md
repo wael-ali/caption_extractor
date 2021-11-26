@@ -1,8 +1,8 @@
 This extension is in the experimental phase.
 
 ### Requirements
-Firfox (version: 94.0)
-vedio tag that has ```cc``` button implemented in .srt format.
+* Firfox (version: 94.0)
+* vedio tag that has ```cc``` button implemented in .srt format.
 
 ### Manual Installtion
 In a firefox tab print 
