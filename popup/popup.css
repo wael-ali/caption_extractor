@@ -1,0 +1,15 @@
+:root {
+    --dark-bg-color: rgb(31, 35, 38);
+    --white-bg-color: #fff;
+    --dark-font-color: rgb(31, 35, 38);
+    --white-font-color: #fff;
+    --bg-color:var(--dark-bg-color);
+    --font-color:var(--white-font-color);
+    --radious: 3px;
+  }
+  
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--font-color);
+}

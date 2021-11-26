@@ -1,0 +1,88 @@
+:root {
+    --dark-bg-color: rgb(31, 35, 38);
+    --white-bg-color: #fff;
+    --dark-font-color: rgb(31, 35, 38);
+    --white-font-color: #fff;
+    --bg-color:var(--dark-bg-color);
+    --font-color:var(--white-font-color);
+    --radious: 3px;
+  }
+  
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--font-color);
+}
+
+.btn {
+    padding: 5px 10px;
+    border-radius: var(--radious);
+}
+
+.list-container {
+    width: 80%;
+    margin: auto;
+    background-color: rgba(67, 77, 84, 1);
+    padding: 10px;
+    border-radius: var(--radious);
+}
+.hide {
+    display: none;
+}
+.loadingModal {
+    /* display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #a8c7eb;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: var(--radious);
+    width: 70%; /* Could be more or less, depending on screen size */
+}
+.buttons-panel {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Accordion */
+  /* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    border-radius: var(--radious);
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  } 
+  .accordion-container {
+      margin-top: 5px;
+      border-radius: var(--radious);
+  }

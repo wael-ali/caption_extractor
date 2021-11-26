@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caption Extractor</title>
+    <link rel="stylesheet" href="devtools-panel.css">
+</head>
+
+<body>
+    <div class="loadingModal hide" id="loadingModal">
+        <div class="modal-content">Processing...</div>
+    </div>
+    <div>
+        <div class="info">
+            Go to the vedio caption menu and choose a langange caption
+        </div>
+        <div class="buttons-panel">
+            <button class="btn" id="getNetWork">List all srt file in this page</button>
+            <button class="btn" id="clear_network_list">Clear</button>
+        </div>
+        <div class="list-container">
+            <div id="accordionList">List of srt entries goes here.</div>
+        </div>
+        <script src="devtools-panel.js"></script>
+    </div>
+</body>
+
+</html>
